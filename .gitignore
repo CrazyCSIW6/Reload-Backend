@@ -1,7 +1,6 @@
 ClientSettings/
 *.Sav
 node_modules/
-/Config
 stats-cool.txt
 tokenManager/tokens.json
 tokenManager/tokens.json
