@@ -6,7 +6,7 @@ const log = require("../../../structs/log.js");
 module.exports = {
     commandInfo: {
         name: "claimvbucks",
-        description: "Claim your daily 250 V-Bucks"
+        description: "Valuable currency used to purchase goods from the store."
     },
     async execute(interaction) {
         try {
@@ -20,17 +20,17 @@ module.exports = {
             const userProfile = await Profiles.findOne({ accountId: user?.accountId });
 
             const lastClaimed = userProfile?.profiles?.lastVbucksClaim;
-            if (lastClaimed && (Date.now() - new Date(lastClaimed).getTime() < 24 * 60 * 60 * 1000)) {
-                const timeLeft = 24 - Math.floor((Date.now() - new Date(lastClaimed).getTime()) / (1000 * 60 * 60));
+            if (lastClaimed && (Date.now() - new Date(lastClaimed).getTime() < 6 * 60 * 60 * 1000)) {
+                const timeLeft = 6 - Math.floor((Date.now() - new Date(lastClaimed).getTime()) / (1000 * 60 * 60));
                 return interaction.followUp({
-                    content: `You have already claimed your daily **V-Bucks.** Please wait the remainder: **${timeLeft} hours.**`,
+                    content: `We don't have any V-Bucks for you right now. Come back in **${timeLeft} hours.**`,
                     ephemeral: true
                 });
             }
 
             const filter = { accountId: user?.accountId };
-            const updateCommonCore = { $inc: { 'profiles.common_core.items.Currency:MtxPurchased.quantity': 250 } }; //250 is vbucks for day but u can change it
-            const updateProfile0 = { $inc: { 'profiles.profile0.items.Currency:MtxPurchased.quantity': 250 } }; //250 is vbucks for day but u can change it
+            const updateCommonCore = { $inc: { 'profiles.common_core.items.Currency:MtxPurchased.quantity': 25 } }; //250 is vbucks for day but u can change it
+            const updateProfile0 = { $inc: { 'profiles.profile0.items.Currency:MtxPurchased.quantity': 25 } }; //250 is vbucks for day but u can change it
 
             const userUpdatedProfile = await Profiles.findOneAndUpdate(
                 filter,
@@ -60,8 +60,8 @@ module.exports = {
             });
 
             const embed = new MessageEmbed()
-                .setTitle("Daily V-Bucks Claimed!")
-                .setDescription(`You have claimed your daily **250 V-Bucks**!`)
+                .setTitle("You have claimed 25 V-Bucks!")
+                .setDescription(`Come back in **6 hours** to claim another 25 V-Bucks.`)
                 .setThumbnail("https://i.imgur.com/yLbihQa.png")
                 .setColor("#1eff00")
                 .setFooter({
