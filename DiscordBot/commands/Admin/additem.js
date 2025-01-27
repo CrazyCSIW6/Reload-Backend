@@ -105,7 +105,7 @@ module.exports = {
                             "fromAccountId": `[${interaction.user.username}]`,
                             "lootList": lootList,
                             "params": {
-                                "userMessage": `Thanks For Using Reload Backend!`
+                                "userMessage": `There could be any number of reasons why you're getting this item. Enjoy!`
                             },
                             "giftedOn": new Date().toISOString()
                         },
