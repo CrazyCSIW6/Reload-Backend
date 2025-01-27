@@ -5,6 +5,7 @@ const path = require('path');
 const destr = require('destr');
 const config = require('../../../Config/config.json');
 const uuid = require("uuid");
+const log = require("../../../structs/log.js");
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
@@ -59,7 +60,7 @@ module.exports = {
                     }
 
                     const cosmeticimage = cosmeticFromAPI.images.icon;
-                    const regex = /^(?:[A-Z][a-z]*\b\s*)+$/;
+                    const regex = /^[A-Za-z0-9'°. \s]+$/;
                     if (!regex.test(cosmeticname)) {
                         return await interaction.editReply({ content: "Please check for correct casing. E.g 'Renegade Raider' is correct.", ephemeral: true });
                     }
@@ -163,7 +164,7 @@ module.exports = {
                     };
                 });
         } catch (err) {
-            console.log(err);
+            log.error(err);
             await interaction.editReply({ content: "An unexpected error occurred", ephemeral: true });
         }
     }
