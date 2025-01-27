@@ -1,0 +1,27 @@
+{
+	"//": "BR Item Shop Config",
+	"daily1": {
+		"itemGrants": ["AthenaPickaxe:HalloweenScythe"],
+		"price": 800
+	},
+	"daily2": {
+		"itemGrants": ["AthenaPickaxe:HappyPickaxe"],
+		"price": 500
+	},
+	"daily3": {
+		"itemGrants": ["AthenaGlider:Glider_FlowerPower"],
+		"price": 500
+	},
+	"daily4": {
+		"itemGrants": ["AthenaCharacter:CID_013_Athena_Commando_F"],
+		"price": 800
+	},
+	"featured1": {
+		"itemGrants": ["AthenaCharacter:CID_029_Athena_Commando_F_Halloween"],
+		"price": 1500
+	},
+	"featured2": {
+		"itemGrants": ["AthenaCharacter:CID_030_Athena_Commando_M_Halloween"],
+		"price": 1500
+	}
+}
