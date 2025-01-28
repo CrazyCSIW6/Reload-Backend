@@ -11,6 +11,333 @@
       "name": "BRWeeklyStorefront",
       "catalogEntries": []
     },
+	{
+          "name": "CurrencyStorefront",
+          "catalogEntries": [
+              {
+                  "offerId": "425FDD804D9D61AC2530CE8F31398BCD",
+                  "devName": "Large Currency Pack",
+                  "offerType": "StaticPrice",
+                  "prices": [
+                      {
+                          "currencyType": "RealMoney",
+                          "currencySubType": "",
+                          "regularPrice": 0,
+                          "dynamicRegularPrice": -1,
+                          "finalPrice": 0,
+                          "saleExpiration": "9999-12-31T23:59:59.999Z",
+                          "basePrice": 0
+                      }
+                  ],
+                  "categories": [],
+                  "dailyLimit": -1,
+                  "weeklyLimit": -1,
+                  "monthlyLimit": -1,
+                  "refundable": false,
+                  "appStoreId": [
+                      "",
+                      "3b4c5df9efa5415b941cf74262865e4e",
+                      "ios_vbucks_large",
+                      "",
+                      "google_vbucks_large",
+                      "",
+                      "MTX08K0000000000",
+                      "d299e00d-811e-4b57-85c1-ec06cbc40074",
+                      "c-virtualcurrency0-MTX7500",
+                      "sam_vbucks_large",
+                      "BP2FKJFQ14TJ",
+                      "MTX08K0000000000"
+                  ],
+                  "requirements": [],
+                  "metaInfo": [
+                      {
+                          "key": "MtxQuantity",
+                          "value": "7800"
+                      },
+                      {
+                          "key": "MtxBonus",
+                          "value": "0"
+                      },
+                      {
+                          "key": "IconSize",
+                          "value": "Large"
+                      },
+                      {
+                          "Key": "CurrencyAnalyticsName",
+                          "Value": "MtxPack7800"
+                      }
+                  ],
+                  "catalogGroup": "",
+                  "catalogGroupPriority": 0,
+                  "sortPriority": 3,
+                  "title": "7,800 V-Bucks",
+                  "shortDescription": "",
+                  "description": "Buy 7,800 Fortnite V-Bucks that can be spent in Battle Royale, Creative, and Save the World modes. Note: Not all items purchased may be available in Save the World mode.",
+                  "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack7800.DA_MtxPack7800",
+                  "itemGrants": []
+              },
+              {
+                  "offerId": "A094F1D14BAE8DA77114DAAE76AFCA83",
+                  "devName": "Medium Currency Pack",
+                  "offerType": "StaticPrice",
+                  "prices": [
+                      {
+                          "currencyType": "RealMoney",
+                          "currencySubType": "",
+                          "regularPrice": 0,
+                          "dynamicRegularPrice": -1,
+                          "finalPrice": 0,
+                          "saleExpiration": "9999-12-31T23:59:59.999Z",
+                          "basePrice": 0
+                      }
+                  ],
+                  "categories": [],
+                  "dailyLimit": -1,
+                  "weeklyLimit": -1,
+                  "monthlyLimit": -1,
+                  "refundable": false,
+                  "appStoreId": [
+                      "",
+                      "559f2ba95f874ec987d0ebfd2cc9c70a",
+                      "ios_vbucks_medium",
+                      "",
+                      "google_vbucks_medium",
+                      "",
+                      "MTX03K0000000000",
+                      "cee19aa0-5238-4656-9e52-c8bd0765eb53",
+                      "c-virtualcurrency0-MTX2800",
+                      "sam_vbucks_medium",
+                      "C4BPBTQG5C1B",
+                      "MTX03K0000000000"
+                  ],
+                  "requirements": [],
+                  "metaInfo": [
+                      {
+                          "key": "MtxQuantity",
+                          "value": "2800"
+                      },
+                      {
+                          "key": "MtxBonus",
+                          "value": "0"
+                      },
+                      {
+                          "key": "IconSize",
+                          "value": "Small"
+                      },
+                      {
+                          "key": "BannerOverride",
+                          "value": "12PercentExtra"
+                      },
+                      {
+                          "Key": "CurrencyAnalyticsName",
+                          "Value": "MtxPack2800"
+                      }
+                  ],
+                  "catalogGroup": "",
+                  "catalogGroupPriority": 0,
+                  "sortPriority": 5,
+                  "title": "2,800 V-Bucks",
+                  "shortDescription": "",
+                  "description": "Buy 2,800 Fortnite V-Bucks that can be spent in Battle Royale, Creative, and Save the World modes. Note: Not all items purchased may be available in Save the World mode.",
+                  "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack2800.DA_MtxPack2800",
+                  "itemGrants": []
+              },
+              {
+                  "offerId": "50DC69A74BC4B8D10AF8D5B17A4BF8D4",
+                  "devName": "Jumbo Currency Pack",
+                  "offerType": "StaticPrice",
+                  "prices": [
+                      {
+                          "currencyType": "RealMoney",
+                          "currencySubType": "",
+                          "regularPrice": 0,
+                          "dynamicRegularPrice": -1,
+                          "finalPrice": 0,
+                          "saleExpiration": "9999-12-31T23:59:59.999Z",
+                          "basePrice": 0
+                      }
+                  ],
+                  "categories": [],
+                  "dailyLimit": -1,
+                  "weeklyLimit": -1,
+                  "monthlyLimit": -1,
+                  "refundable": false,
+                  "appStoreId": [
+                      "",
+                      "4daadb392f1c4ee2b5a3af443e614d2a",
+                      "ios_vbucks_jumbo",
+                      "",
+                      "google_vbucks_jumbo",
+                      "",
+                      "MTX14K0000000000",
+                      "d15248c0-acf6-48b7-9632-c9638cba4b37",
+                      "c-virtualcurrency0-MTX13500",
+                      "sam_vbucks_jumbo",
+                      "BWD299HXCXQK",
+                      "MTX14K0000000000"
+                  ],
+                  "requirements": [],
+                  "metaInfo": [
+                      {
+                          "key": "MtxQuantity",
+                          "value": "13500"
+                      },
+                      {
+                          "key": "MtxBonus",
+                          "value": "0"
+                      },
+                      {
+                          "key": "BannerOverride",
+                          "value": "35PercentExtra"
+                      },
+                      {
+                          "key": "IconSize",
+                          "value": "XLarge"
+                      },
+                      {
+                          "Key": "CurrencyAnalyticsName",
+                          "Value": "MtxPack13500"
+                      }
+                  ],
+                  "catalogGroup": "",
+                  "catalogGroupPriority": 0,
+                  "sortPriority": 2,
+                  "title": "13,500 V-Bucks",
+                  "shortDescription": "",
+                  "description": "Buy 13,500 Fortnite V-Bucks that can be spent in Battle Royale, Creative, and Save the World modes. Note: Not all items purchased may be available in Save the World mode.",
+                  "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack13500.DA_MtxPack13500",
+                  "itemGrants": []
+              },
+              {
+                  "offerId": "12C02A514B8718EB48EB4C9171715891",
+                  "devName": "Small Currency Pack",
+                  "offerType": "StaticPrice",
+                  "prices": [
+                      {
+                          "currencyType": "RealMoney",
+                          "currencySubType": "",
+                          "regularPrice": 0,
+                          "dynamicRegularPrice": -1,
+                          "finalPrice": 0,
+                          "saleExpiration": "9999-12-31T23:59:59.999Z",
+                          "basePrice": 0
+                      }
+                  ],
+                  "categories": [],
+                  "dailyLimit": -1,
+                  "weeklyLimit": -1,
+                  "monthlyLimit": -1,
+                  "refundable": false,
+                  "appStoreId": [
+                      "",
+                      "ede05b3c97e9475a8d9be91da65750f0",
+                      "ios_vbucks_small",
+                      "",
+                      "google_vbucks_small",
+                      "",
+                      "MTX01K0000000000",
+                      "6caed040-72dc-499a-9337-a165f1ec0a26",
+                      "c-virtualcurrency0-MTX1000",
+                      "sam_vbucks_small",
+                      "C0F5HT9NV86P",
+                      "MTX01K0000000000"
+                  ],
+                  "requirements": [],
+                  "metaInfo": [
+                      {
+                          "key": "MtxQuantity",
+                          "value": "1000"
+                      },
+                      {
+                          "key": "MtxBonus",
+                          "value": "0"
+                      },
+                      {
+                          "key": "IconSize",
+                          "value": "XSmall"
+                      },
+                      {
+                          "Key": "CurrencyAnalyticsName",
+                          "Value": "MtxPack1000"
+                      }
+                  ],
+                  "catalogGroup": "",
+                  "catalogGroupPriority": 0,
+                  "sortPriority": 6,
+                  "title": "1,000 V-Bucks",
+                  "shortDescription": "",
+                  "description": "Buy 1,000 Fortnite V-Bucks that can be spent in Battle Royale, Creative, and Save the World modes. Note: Not all items purchased may be available in Save the World mode.",
+                  "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack1000.DA_MtxPack1000",
+                  "itemGrants": []
+              },
+              {
+                  "offerId": "9484CF2E4C79CBACE1F94D908C51C792",
+                  "devName": "Intermediate Currency Pack",
+                  "offerType": "StaticPrice",
+                  "prices": [
+                      {
+                          "currencyType": "RealMoney",
+                          "currencySubType": "",
+                          "regularPrice": 0,
+                          "dynamicRegularPrice": -1,
+                          "finalPrice": 0,
+                          "saleExpiration": "9999-12-31T23:59:59.999Z",
+                          "basePrice": 0
+                      }
+                  ],
+                  "categories": [],
+                  "dailyLimit": -1,
+                  "weeklyLimit": -1,
+                  "monthlyLimit": -1,
+                  "refundable": false,
+                  "appStoreId": [
+                      "",
+                      "d900ad5da7ec4eac86918bcfa0c3e698",
+                      "ios_vbucks_mediumplus",
+                      "",
+                      "google_vbucks_mediumplus",
+                      "",
+                      "MTX05K0000000000",
+                      "1f5d0b24-49e8-43b3-9547-3e4743c21823",
+                      "c-virtualcurrency0-MTX5000",
+                      "sam_vbucks_mediumplus",
+                      "C20FM0B4Q9KC",
+                      "MTX05K0000000000"
+                  ],
+                  "requirements": [],
+                  "metaInfo": [
+                      {
+                          "key": "MtxQuantity",
+                          "value": "5000"
+                      },
+                      {
+                          "key": "MtxBonus",
+                          "value": "0"
+                      },
+                      {
+                          "key": "IconSize",
+                          "value": "Medium"
+                      },
+                      {
+                          "key": "BannerOverride",
+                          "value": "25PercentExtra"
+                      },
+                      {
+                          "Key": "CurrencyAnalyticsName",
+                          "Value": "MtxPack5000"
+                      }
+                  ],
+                  "catalogGroup": "",
+                  "catalogGroupPriority": 0,
+                  "sortPriority": 4,
+                  "title": "5,000 V-Bucks",
+                  "shortDescription": "",
+                  "description": "Buy 5,000 Fortnite V-Bucks that can be spent in Battle Royale, Creative, and Save the World modes. Note: Not all items purchased may be available in Save the World mode.",
+                  "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack5000.DA_MtxPack5000",
+                  "itemGrants": []
+              }
+          ]
+    },
     {
       "name": "BRSeasonStorefront",
       "catalogEntries": [
