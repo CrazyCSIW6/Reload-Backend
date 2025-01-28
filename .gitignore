@@ -8,3 +8,4 @@ tokenManager/tokens.json
 Config/catalog_config.json
 Config/config.json
 /privatedata
+json.sqlite
