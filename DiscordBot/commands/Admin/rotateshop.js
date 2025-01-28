@@ -1,5 +1,6 @@
 const functions = require("../../../structs/autorotate.js");
-const config = require('../../../Config/config.json');
+const fs = require("fs");
+const config = JSON.parse(fs.readFileSync("./Config/config.json").toString());
 
 module.exports = {
     commandInfo: {
