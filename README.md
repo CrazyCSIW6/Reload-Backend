@@ -1,10 +1,11 @@
-# Reload Backend
+# Semenware's Skidded Reload
 
 ![Imgur](https://i.imgur.com/ImIwpRm.png)
 
 Reload Backend is a universal Fortnite private server backend written in [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 Created by [Burlone](https://github.com/burlone0), This is a modded backend, all main backend credits to [Lawin](https://github.com/Lawin0129)
+Forked with basically no fucking changes, someday will probably serve a purpose
 
 ## Features
 * Locker:
